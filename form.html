@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWorkForm</title>
+</head>
+<body>
+    <p>
+    	<a href="index.html">Go to table</a>	
+    </p>
+    <header>
+        <h2>Form poll "Sport and Youth"</h2>
+    </header>
+    <form method="post" action="https://formspree.io/tsapy@rambler.ru" style="background-color: #DCFFC3">
+        <fildset>
+            <legend>Personal information:</legend><br>
+            <label>Name:<br>
+                <input type="text" name="name" title="Oleg" autofocus required>
+            </label><br>
+            <label>Email:<br>
+                <input type="email" name="email" title="Oleg@gmail.com" required>
+            </label><br>
+        </fildset><br>
+        <fildset>    
+            <legent>Answers the questions:</legent><br><br>
+            <label>Do you play sports?<br>
+                <input type="radio" name="qwe1" value="Yes" checked> Yes<br>
+                <input type="radio" name="qwe1" value="Yes"> No<br>
+                <input type="radio" name="qwe1" value="Yes"> Plan in the future<br>
+            </label><br>
+            <label>How to attract young people to the sport?<br>
+                 <input type="checkbox" name="qwe2" value="Holding events and activities" checked> Holding events and activities<br>
+                 <input type="checkbox" name="qwe2" value="Release sports newspaper"> Release sports newspaper<br>
+                 <input type="checkbox" name="qwe2" value="TV"> TV<br>
+                 <input type="checkbox" name="qwe2" value="Others(write your answer, please):"> Others(write your answer, please):<br>
+                 <input type="text" name="qwe2" placeholder="Write your answer">
+            </label>
+        </fildset>
+        <br><br>
+        <input type="submit" name="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
